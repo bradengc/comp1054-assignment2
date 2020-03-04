@@ -1,0 +1,121 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+  font-size: 1em;
+  color: #fff;
+  line-height: 1.4em;
+  text-align: center;
+  background-color: #BF3EFF;
+}
+
+.wrapper {
+  width: 100%;
+  padding: 0 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1,
+h2,
+h3 {
+ font-family: 'Rock Salt', cursive;
+ color: #eaeaea;
+ padding-bottom: 25px;
+}
+
+h1 {
+  font-size: 6em;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+header {
+  height: 500px;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  background-image: url("images/awesomefest2.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.images {
+  display:flex;
+}
+
+.images div {
+  width: auto;
+  height: auto;
+}
+
+.images img {
+  width: 500px;
+  padding: 15px 15px;
+  margin-left: 4%;
+}
+
+main {
+  padding-top: 60px 0;
+}
+
+/*form styling*/
+
+form {
+  margin: 35px 0px;
+}
+
+form > label {
+  font-size: 1.1em;
+}
+
+form > input[type=text] {
+  background-color: #ffccff;
+  border-style: none;
+  margin: 10px 8px;
+  width: 275px;
+  height: 35px;
+}
+
+form > input[type=radio] {
+  margin: 10px 0px;
+}
+
+select{
+  padding: 10px 10px;
+  margin:10px 8px;
+  background-color: #ffccff;
+  border-style: none;
+}
+
+input[type=submit] {
+  margin: 10px 0px;
+  padding: 10px 10px;
+  background-color: #ff00ff;
+  color: #ffccff;
+  border-style: none;
+}
+
+/*footer*/
+
+footer p {
+  color: #333;
+  padding: 30px;
+}
